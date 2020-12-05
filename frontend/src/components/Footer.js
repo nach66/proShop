@@ -3,9 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 const Footer = () => {
   return (
-    <footer style={{
-      background: 'grey'
-    }}>
+    <footer>
       <Container>
         <Row>
           <Col className='text-center py-3'>Copyright &copy; ProShop</Col>
@@ -15,4 +13,4 @@ const Footer = () => {
   )
 }
 
-export default Footer;
+export default Footer
